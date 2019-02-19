@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/gray">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/cover"
+            android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/nvidia" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Nvidia"
+            android:textColor="#fff"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Way It's Meant to be Played"
+            android:textSize="32sp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="NVIDIA'S INVENTION OF THE GPU
+            In 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI — the next era of computing — with the GPU acting as the brain of computers, robots, and self-driving cars that can perceive and understand the world."
+            android:textSize="15sp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Us Online"
+            android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fb" />
+        <ImageView
+            android:id="@+id/tt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/tt" />
+        <ImageView
+            android:id="@+id/yt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/yt" />
+        <ImageView
+            android:id="@+id/tw"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/tw" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
